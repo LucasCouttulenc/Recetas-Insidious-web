@@ -78,6 +78,7 @@ div#header{
 div#botones{
     float: left;
     margin-left: 5px;
+    
 }
 
 div#Titulobox{
@@ -118,7 +119,7 @@ div#contenedor{
 }
 
 div#contenedorinterno{
-    width: 1300px;
+    width: 1350px;
     margin: 0px auto;
     min-height: calc(100vh - 50px - 20px);
 }
