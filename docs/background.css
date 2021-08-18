@@ -119,7 +119,7 @@ div#contenedor{
 }
 
 div#contenedorinterno{
-    width: 1350px;
+    width: 1345px;
     margin: 0px auto;
     min-height: calc(100vh - 50px - 20px);
 }
