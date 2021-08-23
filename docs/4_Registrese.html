@@ -64,25 +64,33 @@
 
     <p class="verdanabd" style="font-size: 17px; margin-left: 10px; margin-bottom: 10px;">Formulario de Registro</p>
 
-    <form action="show_data_REGISTRO.html" target="_blank" style="margin-left: 10px; font-size: 17px;" class="verdana">
+    <form action="show_data_REGISTRO.html" target="_blank" style="margin-left: 10px; padding-bottom: 20px; font-size: 17px;" class="verdana" autocomplete="off">
+        <fieldset style="width: fit-content; border-color: rgb(94, 94, 177); border-width: 5px;">
 
-        <label for="Nombre">Nombre: </label> <input type="text" name="Nombre" placeholder="Ingrese su nombre aquí..."> <br> <br>
-        <label for="Apellido">Apellido: </label> <input type="text" name="Apellido" placeholder="Ingrese su apellido aquí..."> <br> <br>
-        <label for="Direccion">Dirección: </label> <input type="text" name="Direccion" placeholder="Ingrese su dirección aquí..."> <br> <br>
-        <label for="Ciudad">Ciudad: </label> <input type="text" name="Ciudad" value="C.A.B.A."> <br> <br>
-        <label for="Codigo_Postal">Codigo_Postal: </label> <input type="text" name="Codigo_Postal" placeholder="Ingrese su Código Postal aquí..."> <br> <br>
-        <label for="Fecha_de_Nacimiento">Fecha de Nacimiento: </label> <input type="date" name="Fecha_de_Nacimiento" > <br> <br>
+        <label for="Nombre">Nombre: </label> <input required style="background-color: rgb(161, 200, 231);" type="text" name="Nombre" placeholder="Ingrese su nombre aquí..."> <br> <br>
+        <label for="Apellido">Apellido: </label> <input required style="background-color: rgb(161, 200, 231);" type="text" name="Apellido" placeholder="Ingrese su apellido aquí..."> <br> <br>
+        <label for="Direccion">Dirección: </label> <input style="background-color: rgb(161, 200, 231);" type="text" name="Direccion" placeholder="Ingrese su dirección aquí..."> <br> <br>
+        <label for="Ciudad">Ciudad: </label> <input style="background-color: rgb(161, 200, 231);" type="text" name="Ciudad" value="C.A.B.A."> <br> <br>
+        <label for="Codigo_Postal">Codigo_Postal: </label> <input style="background-color: rgb(161, 200, 231);" type="text" name="Codigo_Postal" placeholder="Ingrese su Código Postal aquí..."> <br> <br>
+        <label for="Fecha_de_Nacimiento">Fecha de Nacimiento: </label> <input style="background-color: rgb(161, 200, 231);" type="date" name="Fecha_de_Nacimiento" > <br> <br>
+        <label for="Contrasena">Contraseña: </label> <input required style="background-color: rgb(161, 200, 231);" type="password" name="Contrasena" placeholder="Ingrese su contraseña aquí..."> <br> <br>
+        
 
         <p style="margin-bottom: 20px;">Genero:
             <input type="radio" name="Genero" value="hombre">Hombre
             <input type="radio" name="Genero" value="Mujer">Mujer
             <input type="radio" name="Genero" value="X">X
         </p>
-        <p style="margin-bottom: 20px;">Estudios Máximos Alcanzados:
-            <input type="radio" name="Estudios_Alcanzados" value="primarios">Primarios
-            <input type="radio" name="Estudios_Alcanzados" value="secundarios">Secundarios
-            <input type="radio" name="Estudios_Alcanzados" value="terciarios">Terciarios
-            <input type="radio" name="Estudios_Alcanzados" value="universitarios">Universitarios
+        
+        <p style="margin-bottom: 20px;">
+            <label for="listado">Estudios Máximos Alcanzados: </label>
+            <select style="background-color: rgb(161, 200, 231);" name="Estudios_Alcanzados" id="listado">
+            <option value="Primarios">Primarios</option>
+            <option value="Secundarios">Secundarios</option>
+            <option value="Terciarios">Terciarios</option>
+            <option value="Universitarios">Universitarios</option>
+            </select>
+
         </p>
         <p style="margin-bottom: 20px;">Conocimientos:
             <input type="checkbox" name="Conocimiento" value="C">C
@@ -93,8 +101,10 @@
             <input type="checkbox" name="Conocimiento" value="Python">Python
         </p>
         
-        <input type="submit" value="Enviar">
+        <input style="background-color: rgb(72, 202, 72); font-size: 18px;" type="submit" value="Enviar">
+        <input style="background-color: rgb(233, 106, 106); font-size: 18px;" type="reset" value="Borrar">
 
+        </fieldset>
     </form>
 
 
@@ -104,7 +114,7 @@
 
 
 
-
+    
 
 
 
