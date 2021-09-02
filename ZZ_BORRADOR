@@ -1,0 +1,344 @@
+
+
+SALTO DE LÍNEA SE HACE CON <br> 
+
+
+
+<style type="text/css">
+        .rectangulosuperior{
+            background-color: rgb(243, 96, 91);
+            width: 100%;
+            height: 120px;
+            position:fixed;
+        }
+</style>
+
+<style type="text/css">
+        .contenedor{
+            background-color: rgb(109, 199, 241);
+            
+            min-height: calc(100vh - 90px - 50px);
+        }
+</style>
+
+<style type="text/css">
+        .rectanguloinferior{
+            background-color: rgb(243, 96, 91);
+            width: 100%;
+            height: 50px;
+            
+            margin-bottom: 0px;
+           
+            
+        }
+</style>
+
+
+
+
+
+
+
+body{
+    background-color: rgb(248, 197, 205);
+}
+
+
+
+div#cuadradorojo{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+
+
+
+<style type="text/css">
+        .rectangulocompartirredessociales{
+            background-color: rgb(175, 10, 10);
+            border: 10px solid black;   /*solid, double, dashed, dotted*/
+            width: 410px;
+            height: 40px;
+            margin-left: 495.5px;
+            padding-left: 10px;
+        }
+    </style> 
+
+    <style type="text/css">
+        .cuadradomarron1{
+            background-color: rgb(107, 66, 32);
+            border: 20px black;
+            width: 125px;
+            height: 125px;
+           
+            float: left;
+        }
+    </style>
+
+
+    <style type="text/css">
+        .cuadradomarron2{
+            background-color: rgb(107, 66, 32);
+            border: 20px black;
+            width: 125px;
+            height: 125px;
+            float: left;
+        }
+    </style>
+
+
+
+    RECTANGULO SUPERIOR CON LINKS PERO SIN BOTON
+
+    <div id="rectangulosuperior">
+        <div id=Homebox style="margin-left: 10px; margin-top: 10px; padding-top: 5px;"><a href="1_Home.html" style="font-size: 20px; padding-left: 7px;">Home</a></div>
+        <div id=Acercadebox style="margin-left: 10px; margin-top: 10px; padding-top: 5px;"><a href="2_Acerca_de.html" style="font-size: 20px; padding-left: 5px;">Acerca de</a></div>
+        <div id=Contactobox style="margin-left: 10px; margin-top: 10px; padding-top: 5px;"><a href="3_Contacto.html" style="font-size: 20px; padding-left: 8px;">Contacto</a></div>
+        
+        <h1 style="font-size: 40px; text-align: center; padding-top: 50px ;">Recetas de Doña Elisa</h1>
+    </div>
+
+
+LISTAS Y TABLAS
+
+    LISTAS, TE LA PONE CON ITEMS
+    <ul type="square">
+        <li>Hola</li>
+        <li>como</li>
+        <li>estas</li>
+    </ul>
+
+
+    LISTA ORDENADA DE HIPERVINCULOS
+    <ol>
+        <li>Hola</li>
+        <li>como</li>
+        <li>estas</li>
+    </ol>
+
+    TABLAS
+
+    <table border="1" cellpadding="2" cellspacing="2">
+        <tr>
+            <th>CANTIDAD</th>
+            <th>PRODUCTO</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Huevos</th>
+        </tr>
+        <tr>
+            <th>500g</th>
+            <th>Harina</th>
+        </tr>
+        <tr>
+            <th>300ml</th>
+            <th>Leche</th>
+        </tr>
+
+    </table>
+
+    <table>
+        <tr>
+            <td rowspan="3">Zona Sur</td>
+            <td>Avellaneda</td>
+            <td>Lanús</td>
+        </tr>
+        <tr>
+            <td colspan="3">Banfield</td>
+        </tr>
+        <tr>
+            <td>Quilmes</td>
+            <td>Berazategui</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Zona Oeste</td>
+            <td>Morón</td>
+            <td>Merlo</td>
+        </tr>
+        <tr>
+            <td>Moreno</td>
+            <td>Haedo</td>
+        </tr>
+        </table>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!LO PRIMERO QUE HICE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    <h2>Titulo H2</h2>
+    <h3>Titulo H3</h3>
+    <p><b>NEGRITA</b></p>
+
+    <p>parrafo: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut rem laboriosam, nemo odio, magnam ab fugit tempora quidem dignissimos ex doloribus explicabo culpa! Delectus aliquid animi sapiente quae rem! Adipisci aperiam distinctio perferendis itaque doloremque odit autem, quaerat rem maiores iste alias corporis inventore similique rerum minus laborum, sunt reprehenderit.</p>
+
+    <p align = "center">Texto alineado en el medio: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatum tempore aspernatur voluptate voluptatem facere, quas reiciendis sunt quaerat quibusdam enim facilis fuga magnam. Vitae minus sequi adipisci aspernatur nihil quaerat voluptatem exercitationem id aut! Cupiditate earum odio aut aspernatur, ea magnam cum eaque sequi in perspiciatis soluta tempora. Laboriosam!</p>
+
+    <p style = "color:blue;"> Texto AZUL</p>
+
+    <p style="color: red;"><b>Texto ROJO en negrita</b></p>    
+
+    
+    <div class="cuadradomarron1"></div>
+    <div class="cuadradomarron2"></div>
+    
+
+    <div class="rectangulocompartirredessociales"><p style="font-size: 30px; color: white"> <b>Compartí en tus redes sociales</b></p></div> 
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!LO PRIMERO QUE HICE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
