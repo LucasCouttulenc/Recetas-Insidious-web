@@ -104,7 +104,7 @@ div#header{
     width: 100%;
     height: 120px;
     position:fixed;
-   z-index: 1;
+    z-index: 1;
    
    
     
@@ -230,8 +230,7 @@ div#logos{
     margin-right: 10px;
     margin: 0px;
     padding: 0px;
-    position: absolute;
-     top: 13px;
+   
     
 }
 
@@ -246,9 +245,9 @@ div#logos{
     margin: 0px;
     padding: 0px;
     
-    
-    position: absolute; 
-    top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     
 }
@@ -256,17 +255,19 @@ div#logos{
 .itemytextobox{
     height: 20px;
     padding-bottom: 20px;
-    position: relative;
+    
     margin-left: 30px;
+    display: flex;
+    align-items: center;
 }
 
 
 .itemytextoboxpasos{
     height: 20px;
     padding-bottom: 20px;
-    position: relative;
     margin-left: 20px;
     margin-top: 20px;
+    
 }
 
 .textodecadaingrediente{
@@ -287,11 +288,8 @@ div#logos{
     font-family: comic;
 }
 
-.textonumerospasos{
+.textonumerospasos{                      /*transform: translateX(-50%);  (para que quede centrado en eje x)*/
    font-size: 22px; 
-   position: absolute; 
-   left: 50%; 
-   transform: translateX(-50%); 
    color: white;
    font-family: comicbd;
 }
