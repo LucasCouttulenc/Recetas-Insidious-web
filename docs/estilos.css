@@ -105,7 +105,8 @@ div#header{
     height: 120px;
     position:fixed;
    z-index: 1;
-
+   
+   
     
 }
 
@@ -350,50 +351,6 @@ div#logos{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.PruebaDeGradientes{
-    width: 200px;
-    height: 400px;
-    background:linear-gradient(red 30%, blue 30%, blue);
- }
- 
- 
- 
- 
- 
- 
 
 
 
