@@ -69,6 +69,9 @@
     margin: 0px;
 }
 
+a{
+    text-decoration:none;
+}
 
 
 
@@ -83,6 +86,7 @@
 
 
 
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
 div#header{
@@ -91,13 +95,12 @@ div#header{
     height: 150px;
     
     z-index: 1;
-    /*animation: mianimacion 3s ease-in-out 0s infinite normal none;*/
-        /* nombre, duracion, velocidad, cantidad de veces que se hace, direccion (normal, reversa,etc), qcy*/
    
-   /* transform: perspective(300px) rotate3d(0, 1, 0, 45deg); */
-
-    
 }
+
+
+
+
 
 
 div#BoxBotonesHeader{
@@ -108,18 +111,28 @@ div#BoxBotonesHeader{
     background-color: rgb(243, 47, 40);
 
     display: flex;
+    justify-content: space-between;
     align-items: center;
     
 
 }
 
+div#BoxBotonesHeaderIZQUIERDA{
+    height: 55px;
+    
+
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+
 .BotonesHeader{
     height: 40px;
    
+    margin-right: 10px;
     margin-left: 10px;
-    
-
-    float: left;
     
     display: flex;
     align-items: center;
@@ -127,7 +140,15 @@ div#BoxBotonesHeader{
 
 }
 
+div#BoxBotonesHeaderDERECHA{
+    height:55px;
+    
+    margin-right: 50px;
 
+    display: flex;
+    align-items: center;
+    
+}
 div#BotonEspecialDerecha{
     height: 40px;
    
@@ -135,16 +156,12 @@ div#BotonEspecialDerecha{
     border-radius: 10px;
     padding-left: 3PX;
     padding-right: 3PX;
-    margin-left: 10px;
     
-
     
-    justify-self: flex-end;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: flex-end;
+    
 }
 
 div#BotonEspecialDerecha:hover{
@@ -158,13 +175,25 @@ div#BotonEspecialDerecha:hover{
 
 
 .TextoBotonesHeader{
-   font-size: 17px;  
+   font-size: 15px;  
    color: white;
    font-family: 'ARLRDBD';
-   font-weight: bold;
+   
    padding-right: 3px;
    padding-left: 3px;
 }
+
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
 
 
 
@@ -405,6 +434,7 @@ div#logos{
 }
 
 
+
 .contenedorchiquito{
     background:rgb(20, 13, 13);
     width: 300px;
@@ -412,9 +442,8 @@ div#logos{
     border-radius: 20px;
     
     display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items:flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
     
     /*  PARA CENTRAR EL INTERIOR DEL CONTENEDOR...
     display: flex;
@@ -430,7 +459,7 @@ div#logos{
     background-color: rgb(247, 247, 247);
     border-radius: 50%;
     margin: 20px;
-    
+
    
     /*align-self:center;*/
 }
@@ -514,6 +543,37 @@ div#logos{
 
 
 
+.nav{
+    display: flex;
+    background: black;
+    height: 80px;
+    align-items: center;
+    padding: 0 80px;
+    color: #fff;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.nav_links{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 2em;
+    display: inline-block;
+
+}
+.nav_cta{
+    background: indianred;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 1em;
+    display: inline-block;
+    border-radius: 20px;
+}
+.nav_cta--register{
+    margin-left: 20px;
+    border: 2px solid indianred;
+    background: none;
+}
 
 
  

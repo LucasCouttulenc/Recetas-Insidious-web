@@ -71,7 +71,9 @@
 }
 
 
-
+a{
+    text-decoration:none;
+}
 
 
 
@@ -117,18 +119,28 @@ div#BoxBotonesHeader{
     background-color: rgb(243, 47, 40);
 
     display: flex;
+    justify-content: space-between;
     align-items: center;
     
 
 }
 
+div#BoxBotonesHeaderIZQUIERDA{
+    height: 55px;
+    
+
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+
 .BotonesHeader{
     height: 40px;
    
+    margin-right: 10px;
     margin-left: 10px;
-    
-
-    float: left;
     
     display: flex;
     align-items: center;
@@ -136,7 +148,15 @@ div#BoxBotonesHeader{
 
 }
 
+div#BoxBotonesHeaderDERECHA{
+    height:55px;
+    
+    margin-right: 50px;
 
+    display: flex;
+    align-items: center;
+    
+}
 div#BotonEspecialDerecha{
     height: 40px;
    
@@ -144,13 +164,8 @@ div#BotonEspecialDerecha{
     border-radius: 10px;
     padding-left: 3PX;
     padding-right: 3PX;
-    margin-left: 10px;
     
     
-   
-    justify-self: flex-end;
-    
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,10 +183,10 @@ div#BotonEspecialDerecha:hover{
 
 
 .TextoBotonesHeader{
-   font-size: 17px;  
+   font-size: 15px;  
    color: white;
    font-family: 'ARLRDBD';
-   font-weight: bold;
+   
    padding-right: 3px;
    padding-left: 3px;
 }
