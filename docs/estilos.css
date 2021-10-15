@@ -204,13 +204,13 @@ div#BotonEspecialDerecha:hover{
 div#contenedor{
     background-color: rgb(109, 199, 241);
     
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 55px - 150px);
 }
 
 div#contenedorinterno{
     width: 1345px;
     margin: 0px auto;
-    min-height: calc(100vh - 50px - 20px);
+    
 }
 
 
@@ -238,7 +238,7 @@ body::-webkit-scrollbar{
     width: 15px;
 }
 body::-webkit-scrollbar-thumb{
-    background: linear-gradient(to right, rgb(97, 10, 10) 0%, rgb(219, 20, 20) 75%);
+    background: linear-gradient(to right, rgb(43, 16, 16) 0%, rgb(163, 24, 24) 75%);
     border-radius: 10px;
 }
 body::-webkit-scrollbar-thumb:hover{
